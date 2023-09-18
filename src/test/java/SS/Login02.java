@@ -51,7 +51,9 @@ public class Login02 {
         driver.findElement(By.xpath("//span[contains(text(),'保存して次へ')]")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//span[contains(text(),'登録完了する')]")).click();
-        //        driver.quit();
+
+
+        driver.quit();
     }
 
 }
